@@ -22,9 +22,9 @@ public class DoWhileCuti22 {
                     System.out.println("Sisa jatah cuti: " + jatahCuti);
                 } else {
                     System.out.println("Sisa jatah cuci Anda tidak mencukupi.");
-                    break;
+                    //break;
                 }
-            } else if (konfirmasi.equalsIgnoreCase("t")) {
+            } else  {
                 System.out.println("Anda memilih untuk tidak mengambil cuti");
                 break;
             }
